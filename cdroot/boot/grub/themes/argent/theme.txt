@@ -28,7 +28,7 @@ title-text: ""
 terminal-box: "terminal_box_*.png"
 terminal-font: "Unifont Regular 16"
 desktop-image: "background.png"
-desktop-color: "#005fce"
+desktop-color: "#818181"
 
 #help bar at the bottom
 + label {
@@ -39,7 +39,7 @@ desktop-color: "#005fce"
 	text = "@KEYMAP_SHORT@"
 	align = "center"
 	font = "DejaVu Sans Regular 12"
-	color = "#ccc"
+	color = "#fff"
 }
 
 # Show a countdown message using the label component
@@ -50,7 +50,7 @@ desktop-color: "#005fce"
   align = "center"
   id = "__timeout__"
   text = "Booting in %d seconds"
-  color = "#ccc"
+  color = "#fff"
   font = "Unifont Regular 16"
 }
 
@@ -61,8 +61,8 @@ desktop-color: "#005fce"
 	top = 20%
 	height = 50%	
 	item_font = "Unifont Regular 16"
-	item_color = "#ccc"
-	selected_item_color= "#fff"
+	item_color = "#fff"
+	selected_item_color= "#ccc"
 	selected_item_pixmap_style = "select_*.png"
 	item_height = 26
 	item_padding = 0
